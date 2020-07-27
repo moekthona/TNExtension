@@ -1,0 +1,6 @@
+framework module TNExtension {
+  umbrella header "TNExtension-umbrella.h"
+
+  export *
+  module * { export * }
+}

@@ -1,0 +1,6 @@
+framework module Pods_TNExtension_Example {
+  umbrella header "Pods-TNExtension_Example-umbrella.h"
+
+  export *
+  module * { export * }
+}

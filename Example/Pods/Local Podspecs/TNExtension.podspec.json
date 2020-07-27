@@ -1,0 +1,22 @@
+{
+  "name": "TNExtension",
+  "version": "0.1.0",
+  "summary": "A short description of TNExtension.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/moekthona/TNExtension",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "moekthona": "moekthona001@gmail.com"
+  },
+  "source": {
+    "git": "https://github.com/moekthona/TNExtension.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "TNExtension/Classes/**/*"
+}
