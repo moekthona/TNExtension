@@ -20,7 +20,7 @@ it, simply add the following line to your Podfile:
 pod 'TNExtension'
 ```
 ## Usage
-  ### Enable Log All Class Name ViewController 
+  ### Enable Log All Class Name  
   ```swift
       @UIApplicationMain
       class AppDelegate: UIResponder, UIApplicationDelegate {
