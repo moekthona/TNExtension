@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'TNExtension_Example' do
+  pod 'TNExtension', :path => '../'
+
+  target 'TNExtension_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
