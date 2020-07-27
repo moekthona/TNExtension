@@ -19,6 +19,31 @@ it, simply add the following line to your Podfile:
 ```ruby
 pod 'TNExtension'
 ```
+## Usage
+  ### Enable Log All Class Name ViewController 
+  ```swift
+      @UIApplicationMain
+      class AppDelegate: UIResponder, UIApplicationDelegate {
+            var window: UIWindow?
+            override init() {
+                 super.init()
+                 UIViewController.classInit
+            }
+       --------------------------
+    }
+  ```
+  
+  ### Enable Swif
+   ```swift
+     UIViewController.swizzlePresentationStyle()
+   ```
+  ### Present ViewController
+  ```swift
+        let vc = ViewControllerName.instantiateVC(storyboardName: "StoryboardName")
+        self.navigationController?.pushViewController(vc, animated: true)
+   ```
+    
+ 
 
 ## Author
 
