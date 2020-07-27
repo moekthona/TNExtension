@@ -33,7 +33,7 @@ pod 'TNExtension'
       }
   ```
   
-  ### Enable Swift
+  ### Enable Swizzle
    ```swift
      UIViewController.swizzlePresentationStyle()
    ```
