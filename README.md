@@ -30,7 +30,7 @@ pod 'TNExtension'
                  UIViewController.classInit
             }
        --------------------------
-    }
+      }
   ```
   
   ### Enable Swif
@@ -39,8 +39,8 @@ pod 'TNExtension'
    ```
   ### Present ViewController
   ```swift
-        let vc = ViewControllerName.instantiateVC(storyboardName: "StoryboardName")
-        self.navigationController?.pushViewController(vc, animated: true)
+      let vc = ViewControllerName.instantiateVC(storyboardName: "StoryboardName")
+      self.navigationController?.pushViewController(vc, animated: true)
    ```
     
  
